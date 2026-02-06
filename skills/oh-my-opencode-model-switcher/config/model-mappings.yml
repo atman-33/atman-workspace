@@ -1,0 +1,38 @@
+# Model mapping definitions for different modes
+# Each mode defines which model each agent/category should use
+
+modes:
+  default:
+    agents:
+      sisyphus: github-copilot/claude-sonnet-4.5
+      oracle: github-copilot/gpt-5.2
+      librarian: github-copilot/claude-sonnet-4.5
+      explore: github-copilot/gpt-5-mini
+      multimodal-looker: github-copilot/gemini-3-flash
+      prometheus: github-copilot/claude-opus-4.5
+      metis: github-copilot/claude-opus-4.5
+      momus: github-copilot/gpt-5.2
+      atlas: github-copilot/claude-sonnet-4.5
+    categories:
+      visual-engineering: github-copilot/gemini-3-pro
+      ultrabrain: github-copilot/gpt-5.2-codex
+      deep: github-copilot/gpt-5.2-codex
+      artistry: github-copilot/gemini-3-pro
+      quick: github-copilot/claude-haiku-4.5
+      unspecified-low: github-copilot/claude-sonnet-4.5
+      unspecified-high: github-copilot/claude-sonnet-4.5
+      writing: github-copilot/gemini-3-flash
+  
+  economy:
+    # "*" means apply to all agents/categories
+    agents:
+      "*": opencode/glm-4.7-free
+    categories:
+      "*": opencode/glm-4.7-free
+  
+  kimi:
+    # All models set to kimi-k2.5-free
+    agents:
+      "*": opencode/kimi-k2.5-free
+    categories:
+      "*": opencode/kimi-k2.5-free

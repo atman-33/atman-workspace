@@ -1,0 +1,8 @@
+.tmp/
+.system/.codex-system-skills.marker
+.serena/
+
+dist/
+__pycache__/
+*.pyc
+*.skill
