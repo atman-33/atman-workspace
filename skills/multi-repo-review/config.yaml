@@ -1,0 +1,17 @@
+# Workspace file path (default: auto-detect *.code-workspace in current dir)
+workspace: null
+
+# Repository list with base branches
+repositories:
+  - path: ./repo-frontend
+    base_branch: main
+  - path: ./repo-backend
+    base_branch: release/v2.0
+  - path: ./repo-shared
+    base_branch: develop
+
+# Review guidelines file
+review_guidelines: ./.opencode/skills/multi-repo-review/review-guidelines.md
+
+# Output report path
+output: ./multi-repo-review-report.md
