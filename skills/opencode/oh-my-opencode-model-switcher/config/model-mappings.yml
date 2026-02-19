@@ -4,23 +4,23 @@
 modes:
   default:
     agents:
-      sisyphus: github-copilot/claude-sonnet-4.5
-      oracle: github-copilot/gpt-5.2
-      librarian: github-copilot/claude-sonnet-4.5
-      explore: github-copilot/gpt-5-mini
+      sisyphus: github-copilot/claude-sonnet-4.6
+      oracle: github-copilot/claude-sonnet-4.6
+      librarian: github-copilot/claude-sonnet-4.6
+      explore: github-copilot/claude-haiku-4.5
       multimodal-looker: github-copilot/gemini-3-flash
-      prometheus: github-copilot/claude-opus-4.5
-      metis: github-copilot/claude-opus-4.5
-      momus: github-copilot/gpt-5.2
-      atlas: github-copilot/claude-sonnet-4.5
+      prometheus: github-copilot/claude-opus-4.6
+      metis: github-copilot/claude-opus-4.6
+      momus: github-copilot/claude-sonnet-4.6
+      atlas: github-copilot/claude-sonnet-4.6
     categories:
-      visual-engineering: github-copilot/gemini-3-pro
+      visual-engineering: github-copilot/claude-sonnet-4.6
       ultrabrain: github-copilot/gpt-5.2-codex
       deep: github-copilot/gpt-5.2-codex
       artistry: github-copilot/gemini-3-pro
       quick: github-copilot/claude-haiku-4.5
-      unspecified-low: github-copilot/claude-sonnet-4.5
-      unspecified-high: github-copilot/claude-sonnet-4.5
+      unspecified-low: github-copilot/claude-sonnet-4.6
+      unspecified-high: github-copilot/claude-sonnet-4.6
       writing: github-copilot/gemini-3-flash
   
   economy:
